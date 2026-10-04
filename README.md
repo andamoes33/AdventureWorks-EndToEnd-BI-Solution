@@ -131,6 +131,7 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 9. 📊 **Dashboard Ejecutivo (Storytelling):** Diseño de la interfaz visual orientada a la experiencia de usuario (UX/UI), con navegación fluida, filtros dinámicos y tooltips detallados.
 ![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral_2.png)
 ![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral.png)
+🔍 **Tooltip**
 ![Dashboard Ejecutivo de Adventure Works](img/2ToolTip.png)
 11. 💡 **Hallazgos de Negocio y Recomendaciones:** Identificación de patrones de rentabilidad, alertas de calidad de datos e insights estratégicos para apoyar la toma de decisiones comerciales y financieras.
 
