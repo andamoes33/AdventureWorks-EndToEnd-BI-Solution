@@ -31,7 +31,8 @@ Diseñar e implementar una solución de inteligencia de negocios centralizada qu
 ---
 
 ## 🛢️ Comprensión e Integración de Datos
-* 🗄️ **Base de datos utilizada:** AdventureWorks2025 es una base de datos transaccional (OLTP)
+* 🗄️ **Base de datos utilizada:** AdventureWorks2025 es una base de datos transaccional (OLTP) [👉 Enlace para descargar la base de datos](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
+> Descargar el archivo con nombre *AdventureWorks2025.bak*
 * ⚙️ **Tipo de base de datos:** Base de datos transaccional desarrollada por Microsoft para simular la operación de una empresa manufacturera (fabricante y distribuidora de bicicletas y accesorios deportivos).
 * 🗂 **Esquemas y Tablas Utilizadas:**
 
