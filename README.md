@@ -4,9 +4,12 @@ Análisis Comercial y Financiero para la toma de decisiones ejecutivas mediante 
 ---
 
 ## 📌 Presentación del Proyecto
-Diseñé e implementé una solución analítica integral (End-to-End) para la dirección Comercial y Financiera de Adventure Works.
+Se diseñó e implementó una solución analítica integral (End-to-End) para la dirección Comercial y Financiera de Adventure Works.
 
-Partiendo de la base de datos transaccional (OLTP) AdventureWorks2025 en SQL Server, desarrollé consultas de exploración, procesos de limpieza, validación de calidad de datos y creación de vistas reutilizables. Posteriormente, modelé los datos en Power BI, implementé métricas DAX y un Dashboard Ejecutivo orientado al storytelling interactivo y la toma de decisiones estratégicas.
+Partiendo de la base de datos transaccional (OLTP) AdventureWorks2025 en SQL Server, se desarrollaron consultas de exploración, procesos de limpieza, validación de calidad de datos y creación de vistas reutilizables. Posteriormente, se modelaron los datos en Power BI y se implementaron métricas DAX junto con un Dashboard Ejecutivo orientado al storytelling interactivo y la toma de decisiones estratégicas.
+
+![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral_2.png)
+![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral.png)
 
 ---
 
@@ -79,7 +82,7 @@ El flujo transaccional se integró asegurando la trazabilidad completa desde la 
                                                                               [ ProductCategory ]
 ```
 
-> 💡 **Caso Especial de Integración:** En la vista de vendedores (`SalesPerson`), se unieron `Person`, `SalesPerson` y `Employee`. Adicionalmente, mediante SQL se incorporó el registro explícito con `BusinessEntityID = -1` (*'Online Sales'*), garantizando que las ventas digitales no perdieran integridad ni representación en el modelo de datos.
+> 💡 **Caso Especial de Integración:** Para la creación de la vista de vendedores (`SalesPerson`), se unieron `Person`, `SalesPerson` y `Employee`. Adicionalmente, mediante SQL se incorporó el registro explícito con `BusinessEntityID = -1` (*'Online Sales'*), garantizando que las ventas digitales no perdieran integridad ni representación en el modelo de datos.
 
 ---
 
@@ -113,7 +116,7 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 * 🛡️ **Cobertura de Costos:** ¿Cuál es el porcentaje de cubrimiento del costo estándar histórico frente al total de ventas netas?
 * 📈 **Tendencia de Rentabilidad:** ¿Cómo evolucionan las ventas y el margen bruto a lo largo del tiempo utilizando el costo estándar histórico real?
 * 🔄 **Comparativa Anual (Prior Year):** ¿Cuál es la utilidad bruta actual y su comportamiento respecto al año anterior (*Prior Year*) por categoría?
-* 🏷️ **Margen Real por Producto:** ¿Cuál es la utilidad y el porcentaje de margen bruto por producto, calculados a partir del costo histórico real a la fecha de transacción (`StandardCostHistory`)-------------?
+* 🏷️ **Margen Real por Producto:** ¿Cuál es la utilidad y el porcentaje de margen bruto por producto, calculados a partir del costo histórico real a la fecha de transacción (`StandardCostHistory`)?
 * 👑 **Top Clientes por Rentabilidad:** ¿Quiénes son los clientes más rentables en términos de utilidad bruta?, ¿cuál es su porcentaje de margen y cómo evoluciona su margen interanual (*YoY*)?
 
 ---
@@ -129,9 +132,6 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 ![Star Schema](img/3DiagramaModeloDatos.png)
 8. 📐 **Medidas DAX y KPIs:** Creación de indicadores clave, métricas de Time Intelligence, márgenes dinámicos y análisis de penetración.
 9. 📊 **Dashboard Ejecutivo (Storytelling):** Diseño de la interfaz visual orientada a la experiencia de usuario (UX/UI), con navegación fluida, filtros dinámicos y tooltips detallados.
-![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral_2.png)
-![Dashboard Ejecutivo de Adventure Works](img/1CapturaGeneral.png)
-🔍 **Tooltip**
 ![Dashboard Ejecutivo de Adventure Works](img/2ToolTip.png)
 11. 💡 **Hallazgos de Negocio y Recomendaciones:** Identificación de patrones de rentabilidad, alertas de calidad de datos e insights estratégicos para apoyar la toma de decisiones comerciales y financieras.
 
@@ -140,7 +140,8 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 ## 🔗 Recursos del Proyecto y Dashboard Interactivo
 
 * 📊 **Dashboard Interactivo en Vivo:** [👉 Haz clic aquí para explorar el Dashboard en línea](https://app.powerbi.com/links/0SBXYugnIR?ctid=9132f3f9-d1e3-4744-bb6f-aea748fc0573&pbi_source=linkShare) *(No requiere instalar Power BI)*.
-* 📥 **Archivo de Trabajo (.pbix):** Puedes descargar el archivo [300926ProjectAdventureWorks2025.pbix](./300926ProjectAdventureWorks2025.pbix) directo desde este repositorio para auditar las medidas DAX y el modelo de datos.
+> En caso que se quiera interactuar con el dashboard en línea, se puede solicitar acceso al email: angie-moes@hotmail.com
+* 📥 **Archivo de Trabajo (.pbix):** Se puede descargar el archivo [300926ProjectAdventureWorks2025.pbix](./300926ProjectAdventureWorks2025.pbix) directo desde este repositorio para auditar las medidas DAX y el modelo de datos.
 
 ---
 
@@ -148,4 +149,4 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 
 * 👨‍💻 **Autor:** Angie Daniela Morales Espinal
 * 💼 **LinkedIn:** www.linkedin.com/in/angie-daniela-morales-espinal
-* 🌐 **Portafolio:** [Enlace a tu portafolio en Notion/NovyPro]
+* 🌐 **Email:** angie-moes@hotmail.com 
