@@ -137,6 +137,13 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 
 ---
 
+## 🔗 Recursos del Proyecto y Dashboard Interactivo
+
+* 📊 **Dashboard Interactivo en Vivo:** [👉 Haz clic aquí para explorar el Dashboard en línea](https://app.powerbi.com/links/0SBXYugnIR?ctid=9132f3f9-d1e3-4744-bb6f-aea748fc0573&pbi_source=linkShare) *(No requiere instalar Power BI)*.
+* 📥 **Archivo de Trabajo (.pbix):** Puedes descargar el archivo [300926ProjectAdventureWorks2025.pbix](./300926ProjectAdventureWorks2025.pbix) directo desde este repositorio para auditar las medidas DAX y el modelo de datos.
+
+---
+
 ## 📬 Contacto y Redes
 
 * 👨‍💻 **Autor:** Angie Daniela Morales Espinal
