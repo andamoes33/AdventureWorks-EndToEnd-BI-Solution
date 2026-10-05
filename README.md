@@ -128,11 +128,13 @@ Para modelar correctamente la base de datos, se analizó el ciclo de vida comple
 2. 🔍 **Exploración de Datos:** Análisis inicial de esquemas, estructuras, llaves primarias/foráneas y cardinalidades en SQL.
 3. 🧹 **Limpieza y Consultas SQL:** Desarrollo de scripts para filtrar registros incoherentes, validar nulos y preparar las transformaciones necesarias.
 4. 👁️ **Creación de Vistas:** Construcción de vistas optimizadas (`view_dimCustomer`, `view_dim_product`, `view_dim_Sales_Person`, `view_dim_Territory`, `view_fact_sales`) para desacoplar la lógica de la base de datos y facilitar la carga.
-5. 🔗 **Integración con Power BI:** Importación y conexión de las vistas SQL desde Power BI Desktop.
-6. 🏗️ **Modelo de Datos:** Diseño de un modelo en estrella (*Star Schema*) con relaciones 1 a * y tablas de dimensión/hechos claramente definidas.
+> Para ver las vistas creadas descargar el archivo [300926_adventure_works_2025_vistas.sql](./sql/300926_adventure_works_2025_vistas.sql) directamente desde este repositorio.
+6. 🔗 **Integración con Power BI:** Importación y conexión de las vistas SQL desde Power BI Desktop.
+7. 🏗️ **Modelo de Datos:** Diseño de un modelo en estrella (*Star Schema*) con relaciones 1 a * y tablas de dimensión/hechos claramente definidas.
 ![Star Schema](img/3DiagramaModeloDatos.png)
 8. 📐 **Medidas DAX y KPIs:** Creación de indicadores clave, métricas de Time Intelligence, márgenes dinámicos y análisis de penetración.
 9. 📊 **Dashboard Ejecutivo (Storytelling):** Diseño de la interfaz visual orientada a la experiencia de usuario (UX/UI), con navegación fluida, filtros dinámicos y tooltips detallados.
+   Adicionalmente, se hizo una validación de los resultados obtenidos en las visualizaciones para asegurar la calidad de los datos entregados [300926_adventure_works_2025_validacion_Power_BI](./sql/300926_adventure_works_2025_validacion_Power_BI).
 ![Dashboard Ejecutivo de Adventure Works](img/2ToolTip.png)
 11. 💡 **Hallazgos de Negocio y Recomendaciones:** Identificación de patrones de rentabilidad, alertas de calidad de datos e insights estratégicos para apoyar la toma de decisiones comerciales y financieras.
 
